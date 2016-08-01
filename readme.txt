@@ -25,5 +25,20 @@ example：
 
 
 
+ObjectCreate("#14 104.940 -> 101.828",OBJ_TREND,0,D'2016.07.28 18:04:49',1.31532,D'2016.07.28 20:16:25',1.31644,D'2016.07.28 20:16:25',1.31644);
+   ObjectSet("#14 104.940 -> 101.828",OBJPROP_COLOR,Blue);
+   ObjectSet("#14 104.940 -> 101.828",OBJPROP_STYLE,STYLE_DOT);
+   ObjectSet("#14 104.940 -> 101.828",OBJPROP_BACK,false);
+   ObjectSet("#14 104.940 -> 101.828",OBJPROP_RAY,false);
+   
+   ObjectCreate("#14 sell 0.10 USDJPYecn at 104.940",OBJ_ARROW,0,D'2016.07.28 18:04:49',1.31532);
+   ObjectSet("#14 sell 0.10 USDJPYecn at 104.940",OBJPROP_COLOR,Blue);
+   ObjectSet("#14 sell 0.10 USDJPYecn at 104.940",OBJPROP_ARROWCODE,1);
+   
+   ObjectCreate("#14 sell 0.10 USDJPYecn at 104.940 close at 101.828",OBJ_ARROW,0,D'2016.07.28 20:16:25',1.31644);
+   ObjectSet("#14 sell 0.10 USDJPYecn at 104.940 close at 101.828",OBJPROP_COLOR,Blue);
+   ObjectSet("#14 sell 0.10 USDJPYecn at 104.940 close at 101.828",OBJPROP_ARROWCODE,3);
+
+
 
 
